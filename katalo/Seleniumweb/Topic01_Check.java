@@ -39,6 +39,7 @@ public class Topic01_Check {
 	public void TC_03_LoginFormDisplayed() {
 		// Login form displayed
 		Assert.assertTrue(driver.findElement(By.xpath("//form[@name='frmLogin']")).isDisplayed());
+		// check login form 123
 	}
 
 	@AfterClass
